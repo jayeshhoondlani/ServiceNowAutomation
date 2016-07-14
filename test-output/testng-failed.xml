@@ -6,7 +6,7 @@
       <class name="com.servicestack.servicenow.ServiceNow">
         <methods>
           <include name="testSetup"/>
-          <include name="testLogin"/>
+          <include name="testKnowledge"/>
         </methods>
       </class> <!-- com.servicestack.servicenow.ServiceNow -->
     </classes>

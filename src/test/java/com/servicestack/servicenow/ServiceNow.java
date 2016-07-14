@@ -51,39 +51,39 @@ public class ServiceNow {
 	public void testKnowledge() throws Exception
 	{
 		driver.switchTo().frame(0);
-		driver.findElement(By.id("user_name")).sendKeys("admin");
-		driver.findElement(By.id("user_password")).sendKeys("QtqASxV4aJys");
-		driver.findElement(By.id("sysverb_login")).click();
+		driver.findElement(By.id(VaraibleConstants.UsernameFieldID)).sendKeys("admin");
+		driver.findElement(By.id(VaraibleConstants.PasswordFieldID)).sendKeys("QtqASxV4aJys");
+		driver.findElement(By.id(VaraibleConstants.LoginButtonID)).click();
 		Thread.sleep(5000);
 		driver.switchTo().defaultContent();
 		Thread.sleep(5000);
-		driver.switchTo().frame("gsft_nav");
-		driver.findElement(By.id("filter")).sendKeys("knowledge");
+		driver.switchTo().frame(VaraibleConstants.NavigationFrame);
+		driver.findElement(By.id(VaraibleConstants.SearchFieldNavigationFrame)).sendKeys("knowledge");
 		Thread.sleep(4000);
-		driver.findElement(By.linkText("Create New")).click();
+		driver.findElement(By.linkText(VaraibleConstants.CreateNewLinkText)).click();
 		driver.switchTo().defaultContent();
-		driver.switchTo().frame("gsft_main");
-		driver.findElement(By.id("sys_display.kb_knowledge.kb_knowledge_base")).sendKeys("IT");
-		driver.findElement(By.id("kb_knowledge.short_description")).sendKeys("Exception");
+		driver.switchTo().frame(VaraibleConstants.MainFrame);
+		driver.findElement(By.id(VaraibleConstants.DepartmentField)).sendKeys("IT");
+		driver.findElement(By.id(VaraibleConstants.KnowledgeDescription)).sendKeys("Exception");
 		Thread.sleep(10000);
-		driver.findElement(By.id("sysverb_insert")).click();
+		driver.findElement(By.id(VaraibleConstants.UpdateButton)).click();
 		Thread.sleep(10000);
-		driver.findElement(By.linkText("KB0010005")).click();
+		driver.findElement(By.linkText("KB0010007")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("publish_knowledge")).click();
-		driver.findElement(By.linkText("KB0010005")).click();
+		driver.findElement(By.id(VaraibleConstants.PublishKnowledge)).click();
+		driver.findElement(By.linkText("KB0010007")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.linkText("Requested")).click();
+		driver.findElement(By.linkText(VaraibleConstants.RequestedLinkText)).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("approve")).click();
+		driver.findElement(By.id(VaraibleConstants.ApproveButton)).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("retire")).click();
+		driver.findElement(By.id(VaraibleConstants.RetireButton)).click();
 		Thread.sleep(10000);
-		driver.findElement(By.linkText("KB0010005")).click();
+		driver.findElement(By.linkText("KB0010007")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.linkText("Requested")).click();
+		driver.findElement(By.linkText(VaraibleConstants.RequestedLinkText)).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("approve")).click();
+		driver.findElement(By.id(VaraibleConstants.ApproveButton)).click();
 		
 	}
 	
