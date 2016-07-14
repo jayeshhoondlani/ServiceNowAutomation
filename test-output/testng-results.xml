@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77641" started-at="2016-07-14T10:59:19Z" finished-at="2016-07-14T11:00:36Z">
+  <suite name="Default suite" duration-ms="288032" started-at="2016-07-14T11:42:00Z" finished-at="2016-07-14T11:46:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77641" started-at="2016-07-14T10:59:19Z" finished-at="2016-07-14T11:00:36Z">
+    <test name="Default test" duration-ms="288032" started-at="2016-07-14T11:42:00Z" finished-at="2016-07-14T11:46:48Z">
       <class name="com.servicestack.servicenow.ServiceNow">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.servicestack.servicenow.ServiceNow@7e0babb1]" name="testSetup" is-config="true" duration-ms="43669" started-at="2016-07-14T16:29:19Z" finished-at="2016-07-14T16:30:02Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.servicestack.servicenow.ServiceNow@7e0babb1]" name="testSetup" is-config="true" duration-ms="43634" started-at="2016-07-14T17:12:00Z" finished-at="2016-07-14T17:12:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.servicestack.servicenow.ServiceNow@7e0babb1]" name="testLogin" duration-ms="33957" started-at="2016-07-14T16:30:02Z" finished-at="2016-07-14T16:30:36Z">
+        <test-method status="PASS" signature="testKnowledge()[pri:0, instance:com.servicestack.servicenow.ServiceNow@7e0babb1]" name="testKnowledge" duration-ms="244380" started-at="2016-07-14T17:12:43Z" finished-at="2016-07-14T17:16:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
+        </test-method> <!-- testKnowledge -->
       </class> <!-- com.servicestack.servicenow.ServiceNow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
