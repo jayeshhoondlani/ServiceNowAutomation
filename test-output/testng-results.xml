@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59501" started-at="2016-07-14T08:12:16Z" finished-at="2016-07-14T08:13:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59501" started-at="2016-07-14T08:12:16Z" finished-at="2016-07-14T08:13:16Z">
+      <class name="com.servicestack.servicenow.ServiceNow">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.servicestack.servicenow.ServiceNow@7e0babb1]" name="testSetup" is-config="true" duration-ms="30124" started-at="2016-07-14T13:42:16Z" finished-at="2016-07-14T13:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.servicestack.servicenow.ServiceNow@7e0babb1]" name="testLogin" duration-ms="29361" started-at="2016-07-14T13:42:46Z" finished-at="2016-07-14T13:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.servicestack.servicenow.ServiceNow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
