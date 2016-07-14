@@ -43,6 +43,7 @@ public class ServiceNow {
 		driver.findElement(By.id("sysverb_insert")).click();
 		String Incident = driver.findElement(By.xpath(".//html/body/div[1]/div/span/div/div[5]/table[1]/tbody/tr/td/div/table/tbody/tr[1]/td[3]/a")).getText();
 		System.out.println(Incident);
+		System.out.println("2");
 	}
 	
 	
